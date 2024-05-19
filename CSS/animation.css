@@ -21,3 +21,7 @@
         opacity: 0%;
     }
 }
+
+.fadein100percent {
+    animation: fadein100percent 1s ease;
+}
