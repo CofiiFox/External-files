@@ -1,4 +1,4 @@
-@keyframes scalein {
+@keyframes scalein100px {
     to {
         width: 100px;
         height: 100px;
@@ -9,6 +9,15 @@
     }
 }
 
-.scalein {
+.scalein100px {
     animation: scalein 1s ease;
+}
+
+@keyframes fadein100percent {
+    to {
+        opacity: 100%;
+    }
+    from {
+        opacity: 0%;
+    }
 }
