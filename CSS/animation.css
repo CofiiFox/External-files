@@ -1,0 +1,14 @@
+@keyframes scalein {
+    to {
+        width: 100px;
+        height: 100px;
+    }
+    from {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.scalein {
+    animation: scalein 1s ease;
+}
